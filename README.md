@@ -6,12 +6,17 @@ INT.
 
 Ellen Ullman, Close to the Machine: Technophilia and its Discontents
 
-1.
+C1.
 "Below the surface of the machine, the program moves. Without effort, it expands and contracts. In great harmony, electrons scatter and regroup. The forms on the monitor are but ripples on the water. The essence stays invisibly below."
 
 Master Yuan-Ma, The Book of Programming
 
-2.
+C2.
 "And my heart glows bright red under my filmy, translucent skin and they have to administer 10cc of JavaScript to get me to come back. (I respond well to toxins in the blood.) Man, that stuff will kick the peaches right out your gills!"
 
 why, Why's (Poignant) Guide to Ruby
+
+C3.
+"People think that computer science is the art of geniuses but the actual reality is the opposite, just many people doing things that build on each other, like a wall of mini stones."
+
+Donald Knuth
