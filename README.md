@@ -1,4 +1,4 @@
-#Exercises and Notes from Eloquent Javascript
+# Exercises and Notes from Eloquent Javascript
 https://eloquentjavascript.net/
 
 INT.
