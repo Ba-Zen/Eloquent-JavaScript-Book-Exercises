@@ -7,7 +7,8 @@ function range(start, end) {
   return nums;
 }
 
-console.log(range(1, 10));
+console.log(range(1, 10, 2));
+
 // Exercise 1b
 function sum(arr) {
   let total = 0;
@@ -19,6 +20,16 @@ function sum(arr) {
   }
 }
 console.log(sum(range(1, 10)));
+
+// Ex 2
+function reverseArray(arr) {
+  let nums = [];
+  for (let i = arr.length - 1; i >= 0; i--) {
+    nums.push(arr.pop());
+  }
+  return nums;
+}
+console.log(reverseArray(['A', 'B', 'C']));
 
 // Chapter Notes
 let nums = { x: 0, y: 0, z: 2 };
