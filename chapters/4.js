@@ -1,4 +1,10 @@
 // Exercise 1
+/*
+Write a range function that takes two arguments, 
+start and end, and returns an array containing all 
+the numbers from start up to (and including) end.
+*/
+
 function range(start, end) {
   let nums = [];
   for (let i = start; i <= end; i++) {
@@ -7,9 +13,15 @@ function range(start, end) {
   return nums;
 }
 
-console.log(range(1, 10, 2));
+console.log(range(1, 10));
 
 // Exercise 1b
+/*
+Next, write a sum function that takes an array of
+ numbers and returns the sum of these numbers. 
+ Run the example program and see whether it does indeed return 55.
+*/
+
 function sum(arr) {
   let total = 0;
   for (let i = 0; i <= arr.length; i++) {
@@ -22,6 +34,17 @@ function sum(arr) {
 console.log(sum(range(1, 10)));
 
 // Ex 2
+/*
+For this exercise, write two functions,
+ reverseArray and reverseArrayInPlace
+. The first, reverseArray, takes an array
+ as argument and produces a new array that 
+ has the same elements in the inverse order. 
+ The second, reverseArrayInPlace, does what 
+ the reverse method does: it modifies the 
+ array given as argument by reversing its 
+ elements. Neither may use the standard reverse method.
+*/
 function reverseArray(arr) {
   let nums = [];
   for (let i = arr.length - 1; i >= 0; i--) {
@@ -30,6 +53,18 @@ function reverseArray(arr) {
   return nums;
 }
 console.log(reverseArray(['A', 'B', 'C']));
+
+//Ex 2b
+function reverseArrayInPlace(arr) {
+  let nums = [];
+  for (let i = arr.length - 1; i >= 0; i--) {
+    nums.push(arr.pop());
+  }
+  return nums;
+}
+
+let arrayValue = [1, 2, 3, 4, 5];
+console.log(reverseArrayInPlace(arrayValue));
 
 // Chapter Notes
 let nums = { x: 0, y: 0, z: 2 };
