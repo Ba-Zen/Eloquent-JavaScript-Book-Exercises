@@ -8,7 +8,19 @@ function range(start, end) {
 }
 
 console.log(range(1, 10));
+// Exercise 1b
+function sum(arr) {
+  let total = 0;
+  for (let i = 0; i <= arr.length; i++) {
+    if (arr[i] == undefined || NaN || null) {
+      return total;
+    }
+    total += arr[i];
+  }
+}
+console.log(sum(range(1, 10)));
 
+// Chapter Notes
 let nums = { x: 0, y: 0, z: 2 };
 //console.log(Object.keys(nums));
 // → ["x", "y", "z"]
