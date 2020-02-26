@@ -198,11 +198,15 @@ rememberUrgently('practice JavaScript');
 //console.log(' hello    \n  '.trim());
 // => "hello"
 
-//console.log(String(7).padStart(3, '0'));
-// => 007
-//console.log(String(7).padEnd(3, '0'));
-// => 700
-
+console.log(String(7).padStart(3, '0'));
+console.log(String(300).padStart(4, '$'));
+//=> 007
+console.log(String(7).padEnd(3, '0'));
+//=> 700
+(1234).toLocaleString(undefined, {
+  style: 'currency',
+  currency: 'USD'
+});
 //console.log('LA'.repeat(3));
 // LALALA
 

@@ -36,3 +36,9 @@ Master Yuan-Ma, The Book of Programming
 "There are two ways of constructing a software design: One way is to make it so simple that there are obviously no deficiencies, and the other way is to make it so complicated that there are no obvious deficiencies."
 
 C.A.R. Hoare, 1980 ACM Turing Award Lecture
+
+C6.
+
+"An abstract data type is realized by writing a special kind of program […] which defines the type in terms of the operations which can be performed on it."
+
+Barbara Liskov, Programming with Abstract Data Types
